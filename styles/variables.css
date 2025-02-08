@@ -3,8 +3,8 @@
 :root {
     --page-font: "Inter", sans-serif;
     --page-accent-font: "PressStart2P", fantasy;
-    --main-font-weight: 400;
-    --title-font-weight: 700;
+    --main-font-weight: "wght" 400;
+    --title-font-weight: "wght" 700;
     --main-font-size: 18px;
     --border: 2px solid black;
     --background-color: #ffffff;

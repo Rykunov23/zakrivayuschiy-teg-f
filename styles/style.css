@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--page-font);
-  font-variation-settings: var(--main-font-weight, 400);
+  font-variation-settings: var(--main-font-weight);
   font-size: var(--main-font-size);
   margin-block-start: 100px;
   margin-block-end: 103px;
@@ -233,11 +233,6 @@
 .button__save-icon {
   inline-size: 21px;
   block-size: 21px;
-}
-
-.modal__icon {
-  inline-size: 39px;
-  block-size: 39px;
 }
 
 .modal[open] {
