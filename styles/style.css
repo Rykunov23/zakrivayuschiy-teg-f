@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--page-font);
-  font-variation-settings: var(--main-font-weight);
+  font-variation-settings: "wght" var(--main-font-weight);
   font-size: var(--main-font-size);
   margin-block-start: 100px;
   margin-block-end: 103px;
