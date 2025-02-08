@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--page-font);
-  font-variation-settings: var(--main-font-weight);
+  font-variation-settings: var(--main-font-weight, 400);
   font-size: var(--main-font-size);
   margin-block-start: 100px;
   margin-block-end: 103px;
@@ -70,12 +70,6 @@
   font-family: var(--page-font);
   font-variation-settings: var(--title-font-weight);
   font-size: inherit;
-}
-
-.label{
-  position: absolute;
-  z-index: 1;
-  opacity: 0.5;
 }
 
 .card__image__container {
@@ -277,7 +271,7 @@
   block-size: 39px;
 }
 
-.modal__button{
+.modal__button {
   inline-size: 293px;
   block-size: 38px;
   text-transform: uppercase;
