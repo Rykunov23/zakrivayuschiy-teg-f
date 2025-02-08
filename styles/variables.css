@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --page-font: "Inter", sans-serif;
+    --page-accent-font: "PressStart2P", fantasy;
+    --main-font-weight: 400;
+    --title-font-weight: 700;
+    --main-font-size: 18px;
+    --border: 2px solid black;
+    --background-color: #ffffff;
+    --header-margin: clamp(7.5rem, 0.751vw + 7.324rem, 8rem);
+    --background-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+                        repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
+                        linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
+    --accent-color: black;
+    --text-color: #ffffff;
+
+    --like-main: none;
+    --like-contour: var(--accent-color);
+    --like-sparks: #ff0000;
+}
