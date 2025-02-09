@@ -28,6 +28,10 @@
   opacity: 0;
 }
 
+.heart {
+  transform-origin: center;
+}
+
 .like-icon:hover .core {
   fill: var(--like-contour);
   transition: fill 0.3s linear;
