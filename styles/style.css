@@ -273,6 +273,11 @@
 }
 
 @media (width <= 375px) {
+  .label {
+    inset-inline-end: 11px;
+    inset-block-start: 23px;
+  }
+  
   .card__text {
     padding: 25px 25px 25px 25px;
   }
