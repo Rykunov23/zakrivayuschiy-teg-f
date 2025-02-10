@@ -63,7 +63,7 @@
 
 .card__title {
   font-family: var(--page-font);
-  font-variation-settings: var(--title-font-weight);
+  font-variation-settings: "wght" var(--title-font-weight);
   font-size: inherit;
   border-block-end: var(--border);
   padding: 5px 9px;
